@@ -19,7 +19,7 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
   
 
 ## Resources
-
+[Designated learning institutions list](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html#wb-auto-24)
 
 ## Examples
 

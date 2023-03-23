@@ -9,11 +9,11 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
 
 **Get By Name** 
    
-   /institutes/json?name=string
+    /institutes/json?name=string
     
 **Get By Public or Private**
   
-  /institutes/json?public=bool
+    /institutes/json?public=bool
     
  **Get By City**
  

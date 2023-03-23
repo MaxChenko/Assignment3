@@ -19,9 +19,8 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
   
 
 ## Resources
-[Designated learning institutions list](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html#wb-auto-24)
-
-[Higher education in Manitoba](https://en.wikipedia.org/wiki/Higher_education_in_Manitoba)
+* [Designated learning institutions list](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/designated-learning-institutions-list.html#wb-auto-24)
+* [Higher education in Manitoba](https://en.wikipedia.org/wiki/Higher_education_in_Manitoba)
 
 ## Examples
 

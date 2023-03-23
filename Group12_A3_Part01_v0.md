@@ -7,13 +7,13 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
 
 #### **End Point 1**
 
-Get By Name
+Get By Name 
     /institutes/json?name=string
     
-Get By Public or Private
+Get By Public or Private 
     /institutes/json?public=bool
     
- Get By City
+ Get By City 
     /institutes/json?city=string
   
 

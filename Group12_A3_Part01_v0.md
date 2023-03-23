@@ -5,8 +5,6 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
 
 ## Endpoints
 
-#### **End Point 1**
-
 **Get By Name** 
    
     /institutes/json?name=string

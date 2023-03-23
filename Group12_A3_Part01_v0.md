@@ -23,3 +23,10 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
 
 ## Examples
 
+    /institutes/json?name=University_of_Manitoba
+    
+    {
+      "name":"University of Manitoba",
+      "date_of_establishment": 1877,
+      "number_of_attendees": 30370
+    }

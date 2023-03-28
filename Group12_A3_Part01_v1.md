@@ -23,7 +23,9 @@ This endpoint returns the name of the institution , date of establishment and nu
 **Parameters**
 
 - **Public (true/false)** : The user passes true if they want list of all public instutions in Manitoba. The user passes false in the query if they want the list of private instutions in Manitoba.
+
 **Query**
+
     /institutes/json?public=bool
     
 ### Get By City

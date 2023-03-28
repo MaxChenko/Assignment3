@@ -35,3 +35,28 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
       "date_of_establishment": 1877,
       "number_of_attendees": 30370
     }
+**Endpoint**
+    /institutes/json?public=true
+
+**Return**
+
+    [{
+       "name": "Booth University College",
+       "date_of_establishment": 1982,
+       "number_of_attendees": 282
+    },
+    {
+       "name": "Canadian Mennonite University",
+       "date_of_establishment": 1999,
+       "number_of_attendees": 1607
+    },
+    {
+       "name": "Providence University College and Theological Seminary",
+       "date_of_establishment": 1925,
+       "number_of_attendees": 325
+    },
+    {
+       "name": "Steinbach Bible College",
+       "date_of_establishment": 1936,
+       "number_of_attendees": 118
+    }]

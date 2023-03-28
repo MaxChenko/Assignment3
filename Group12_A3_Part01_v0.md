@@ -37,7 +37,7 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
     }
 **Endpoint**
 
-    /institutes/json?public=true
+    /institutes/json?public=false
 
 **Return**
 

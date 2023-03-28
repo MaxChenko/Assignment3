@@ -11,7 +11,7 @@ This endpoint returns the name of the institution , date of establishment and nu
 
 **Parameters**
 
- - name : the name of the institution for which the user wants the information .
+ - **Name** : the name of the institution for which the user wants the information .
  
  **Query**
  
@@ -23,16 +23,17 @@ This endpoint returns the name of the institution , date of establishment and nu
 
 **Parameters**
 
-- public (true/false) : The user passes true if they want list of all public instutions in Manitoba .The user passes false in the query if they want the list of private instutions in Manitoba.
+- **Public (true/false)** : The user passes true if they want list of all public instutions in Manitoba .The user passes false in the query if they want the list of private instutions in Manitoba.
 **Query**
     /institutes/json?public=bool
     
 ### Get By City
 
 **Parameters**
-- city : the name of the city for which user wants the list of institutions. 
+- **City** : the name of the city for which user wants the list of institutions. 
 
 **Query**
+
     /institutes/json?city=string
   
 

@@ -36,6 +36,7 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
       "number_of_attendees": 30370
     }
 **Endpoint**
+
     /institutes/json?public=true
 
 **Return**

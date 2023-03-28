@@ -61,3 +61,14 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
        "date_of_establishment": 1936,
        "number_of_attendees": 118
     }]
+**Endpoint**
+
+    /institutes/json?city=brandon
+
+**Return**
+
+    [{
+       "name": "Brandon University",
+       "date_of_establishment": 1890,
+       "number_of attendees": 2980
+    }]

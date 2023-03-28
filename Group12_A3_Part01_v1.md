@@ -1,4 +1,3 @@
-
 ## Description
 
 Our API is for finding Institutes in Manitoba. We can filter the return objects by passing parameters for whether the institute is public or private, by its name, or by the city its in.
@@ -7,7 +6,7 @@ Our API is for finding Institutes in Manitoba. We can filter the return objects 
 
 ### Get By Name
 
-This endpoint returns the name of the institution , date of establishment and number of attendees . 
+This endpoint returns the name of the institution, date of establishment and number of attendees. 
 
 **Parameters**
 
@@ -19,11 +18,11 @@ This endpoint returns the name of the institution , date of establishment and nu
     
 ### Get By Public or Private
 
-This endpoint returns the name of the institution , date of establishment and number of attendees . 
+This endpoint returns the name of the institution , date of establishment and number of attendees. 
 
 **Parameters**
 
-- **Public (true/false)** : The user passes true if they want list of all public instutions in Manitoba .The user passes false in the query if they want the list of private instutions in Manitoba.
+- **Public (true/false)** : The user passes true if they want list of all public instutions in Manitoba. The user passes false in the query if they want the list of private instutions in Manitoba.
 **Query**
     /institutes/json?public=bool
     
@@ -42,7 +41,6 @@ This endpoint returns the name of the institution , date of establishment and nu
 * [Higher education in Manitoba](https://en.wikipedia.org/wiki/Higher_education_in_Manitoba)
 
 ## Examples
-
 **Endpoint**
 
     /institutes/json?name=University_of_Manitoba

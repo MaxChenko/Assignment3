@@ -42,23 +42,29 @@ Response from getting by name:
 ```json
 {
     "name": "String",
-    "date_of_establishment": "int",
-    "number_of_attendees": "int"
+    "date_of_establishment": number,
+    "number_of_attendees": number
 }
 ```
 Response from getting by the type of the institutes:
 ```json
 [{
-    "name": "String"
+    "name": "String",
+    "date_of_establishment": number,
+    "number_of_attendees": number
 },
 {
-    "name": "String"
+    "name": "String",
+    "date_of_establishment": number,
+    "number_of_attendees": number
 }]
 ```
 Response from getting by the city:
 ```json
 [{
-    "name": "String"
+    "name": "String",
+    "date_of_establishment": number,
+    "number_of_attendees": number
 }]
 ```
 ## Examples
@@ -88,16 +94,24 @@ Response from getting by the city:
     "result":
     {
         [{
-            "name": "Booth University College"
+            "name": "Booth University College",
+            "date_of_establishment": 1982,
+            "number_of_attendees": 700
         },
         {
-            "name": "Canadian Mennonite University"
+            "name": "Canadian Mennonite University",
+            "date_of_establishment": 1999,
+            "number_of_attendees": 1750
         },
         {
-            "name": "Providence University College and Theological Seminary"
+            "name": "Providence University College and Theological Seminary",
+            "date_of_establishment": 1925,
+            "number_of_attendees": 4735
         },
         {
-            "name": "Steinbach Bible College"
+            "name": "Steinbach Bible College",
+            "date_of_establishment": 1936,
+            "number_of_attendees": 500
         }]
     },
     "status": "OK"
@@ -113,7 +127,9 @@ Response from getting by the city:
     "result":
     {
         [{
-            "name": "Brandon University"
+            "name": "Brandon University",
+            "date_of_establishment": 1890,
+            "number_of_attendees": 3073
         }]
     },
     "status": "OK"

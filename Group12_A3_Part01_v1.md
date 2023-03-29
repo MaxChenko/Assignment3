@@ -42,29 +42,29 @@ Response from getting by name:
 ```json
 {
     "name": "String",
-    "date_of_establishment": number,
-    "number_of_attendees": number
+    "date_of_establishment": "number",
+    "number_of_attendees": "number"
 }
 ```
 Response from getting by the type of the institutes:
 ```json
 [{
     "name": "String",
-    "date_of_establishment": number,
-    "number_of_attendees": number
+    "date_of_establishment": "number",
+    "number_of_attendees": "number"
 },
 {
     "name": "String",
-    "date_of_establishment": number,
-    "number_of_attendees": number
+    "date_of_establishment": "number",
+    "number_of_attendees": "number"
 }]
 ```
 Response from getting by the city:
 ```json
 [{
     "name": "String",
-    "date_of_establishment": number,
-    "number_of_attendees": number
+    "date_of_establishment": "number",
+    "number_of_attendees": "number"
 }]
 ```
 ## Examples

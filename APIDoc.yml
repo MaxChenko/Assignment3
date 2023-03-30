@@ -1,7 +1,8 @@
 openapi: 3.0.0
 info:
   title: ManitobaInstitutes API
-  description: The ManitobaInstitutes API allows users to get university and colleges information within Manitoba, including the name of the university, the date of establish and the number of students in the university.
+  description: The ManitobaInstitutes API allows users to get university and colleges information within Manitoba, 
+               including the name of the university, the date of establish and the number of students in the university.
   version: 1.0.0
 
 paths:
